@@ -21,8 +21,9 @@ json load_state() {
     }
 
     return json{
-        {"latitude", 0.0},
-        {"longitude", 0.0},
+        // Starting point is just off Key West
+        {"latitude", 24.528197830323617},
+        {"longitude", -81.80947159236209},
         {"speed_kmh", 20.0},
         {"heading_deg", 90.0}
     };
