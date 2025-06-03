@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 ExecStart=/usr/local/bin/ocean_daemon
-WorkingDirectory=/home/YOUR_USERNAME/path/to/daemon
+WorkingDirectory=/usr/local/bin
 Restart=always
 RestartSec=5
 StandardOutput=file:/var/log/ocean_daemon.log
